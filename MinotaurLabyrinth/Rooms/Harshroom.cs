@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace MinotaurLabyrinth
 {
@@ -38,7 +38,7 @@ namespace MinotaurLabyrinth
                 Console.WriteLine("You hear the sound of gears grinding in the room.");
                 return true;
             }
-            
+
             return false;
         }
 

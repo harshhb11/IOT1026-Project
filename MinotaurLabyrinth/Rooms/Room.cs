@@ -1,6 +1,6 @@
 ﻿namespace MinotaurLabyrinth
 {
-    
+
     /// <summary>
     /// Represents a generic room in the labyrinth.
     /// </summary>

@@ -35,9 +35,9 @@
             CauseOfDeath = cause;
         }
         public void TakeDamage(int damage)
-    {
-        // Implement the logic to apply damage to the hero
-        // For example, decrease the hero's health by the specified amount
-    }
+        {
+            // Implement the logic to apply damage to the hero
+            // For example, decrease the hero's health by the specified amount
+        }
     }
 }
