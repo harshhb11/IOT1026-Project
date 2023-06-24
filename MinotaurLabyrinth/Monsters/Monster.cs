@@ -3,6 +3,7 @@
     /// <summary>
     /// Represents an abstract base class for the various monster types in the game.
     /// </summary>
+
     public abstract class Monster : IActivatable
     {
         /// <summary>
@@ -32,4 +33,7 @@
         /// <returns>Returns a DisplayDetails object containing the monster's display information.</returns>
         public abstract DisplayDetails Display();
     }
+
+
+
 }

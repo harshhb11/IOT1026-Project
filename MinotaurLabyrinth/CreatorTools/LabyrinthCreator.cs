@@ -1,8 +1,10 @@
 ﻿namespace MinotaurLabyrinth
+
 {
     /// <summary>
     /// A static class that provides methods to create and initialize a labyrinth map with various features, such as an entrance, sword, traps, and monsters.
     /// </summary>
+    
     public static class LabyrinthCreator
     {
         const int ScalingFactor = 16;
@@ -41,12 +43,15 @@
         /// </summary>
         /// <param name="map">The Map to be randomized with features.</param>
         /// <returns>The Location of the entrance in the randomized map.</returns>
+        
         private static Location RandomizeMap(Map map)
         {
             Location start = PlaceEntrance(map);
             PlaceSword(map, start);
             AddRooms(RoomType.Pit, map);
             InitializeMonsters(map);
+            List<Monster> monsters = new List<Monster>();
+    monsters.Add(new Messi());
             return start;
         }
 
@@ -109,5 +114,6 @@
             Room room = map.GetRoomAtLocation(minotaurLocation);
             room.AddMonster(new Minotaur());
         }
+        
     }
 }

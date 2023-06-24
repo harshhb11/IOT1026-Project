@@ -26,6 +26,12 @@ Sensory Information: The room can provide sensory information to the hero based 
 Activation and Interactions: When the hero enters a room, it triggers interactions. This can involve fighting a monster or encountering events that affect the hero's progress or well-being.
 
 Display Representation: The room has a visual representation. By default, it appears as an empty room. If a monster is present, its representation is used instead.
+
+Task 2: 
+
+Messi (Minotaur)
+
+Messi is a powerful minotaur that can charge at the hero when activated. During the encounter, Messi will knock the hero into another room, while also moving to a new location in the labyrinth. Be careful when encountering Messi, as he can take away your magic sword if you possess one!
 [Assignment Instructions](docs/instructions.md)  
 [How to start coding](docs/how-to-use.md)  
 [How to update status badges](docs/how-to-update-badges.md)
